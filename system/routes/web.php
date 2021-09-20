@@ -19,3 +19,12 @@ Route::get('/', function () {
 Route::get('/produk', function () {
     return view('Produk_V');
 });
+Route::get('/about', function () {
+    return view('About_V');
+});
+Route::get('/about', function () {
+    return view('About_V');
+});
+Route::get('/home', function () {
+    return view('Home_V');
+});

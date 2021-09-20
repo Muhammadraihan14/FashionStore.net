@@ -14,7 +14,12 @@
 @section('produk')
 @include('template.section_HOME.produk_SECTION')  
 @endsection
-<!-- produk -->    
+<!-- footer -->
+<!-- footer -->
+@section('footer')
+@include('template.section_HOME.footer_SECTION')  
+@endsection
+<!-- footer -->     
     
     
    
