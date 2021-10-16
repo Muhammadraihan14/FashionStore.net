@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,33 +5,36 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>Sixteen Clothing HTML Template</title>
+  
 
+
+
+
+    <title>FashionStore.net</title>
     <!-- Bootstrap core CSS -->
     <link href="{{url ('public')}}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<!--
-
-TemplateMo 546 Sixteen Clothing
-
-https://templatemo.com/tm-546-sixteen-clothing
-
--->
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- End Bootstrap CSS -->
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="{{url ('public')}}/css/fontawesome.css">
     <link rel="stylesheet" href="{{url ('public')}}/css/templatemo-sixteen.css">
     <link rel="stylesheet" href="{{url ('public')}}/css/owl.css">
-
+    <!-- Bootstrap core CSS -->
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="{{url ('public')}}/plugins/fontawesome-free/css/all.min.css">
+    <!-- Theme style -->
+    <!-- Bootstrap CSS -->
+    
+    <!-- end Bootstrap CSS -->
   </head>
-
   <body>
-
-    <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
+  <!-- ***** Preloader Start ***** -->
+  <div id="preloader">
         <div class="jumper">
             <div></div>
             <div></div>
@@ -47,67 +49,16 @@ https://templatemo.com/tm-546-sixteen-clothing
     @yield('banner')
     @yield('produk')
     @yield('content')
-
-    
-
-    <div class="best-features">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-heading">
-              <h2>About Sixteen Clothing</h2>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="left-content">
-              <h4>Looking for the best products?</h4>
-              <p><a rel="nofollow" href="https://templatemo.com/tm-546-sixteen-clothing" target="_parent">This template</a> is free to use for your business websites. However, you have no permission to redistribute the downloadable ZIP file on any template collection website. <a rel="nofollow" href="https://templatemo.com/contact">Contact us</a> for more info.</p>
-              <ul class="featured-list">
-                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                <li><a href="#">Consectetur an adipisicing elit</a></li>
-                <li><a href="#">It aquecorporis nulla aspernatur</a></li>
-                <li><a href="#">Corporis, omnis doloremque</a></li>
-                <li><a href="#">Non cum id reprehenderit</a></li>
-              </ul>
-              <a href="about.html" class="filled-button">Read More</a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="right-image">
-              <img src="{{url('public')}}/images/feature-image.jpg" alt="">
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="call-to-action">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="inner-content">
-              <div class="row">
-                <div class="col-md-8">
-                  <h4>Creative &amp; Unique <em>Sixteen</em> Products</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite author nulla.</p>
-                </div>
-                <div class="col-md-4">
-                  <a href="#" class="filled-button">Purchase Now</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    @yield('map')
+    @yield('email')
     @yield('footer')
 
 
     <!-- Bootstrap core JavaScript -->
     <script src="{{url ('public')}}/vendor/jquery/jquery.min.js"></script>
     <script src="{{url ('public')}}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <!-- Bootstrap core JavaScript -->
 
 
     <!-- Additional Scripts -->
