@@ -1,4 +1,4 @@
-@extends('template.base_login_register')
+@extends('template.Interface_User.base_login_register')
 @section('form')
-@include('template.section_REGISTER.form_SECTION')  
+@include('template.Interface_User.section_REGISTER.form_SECTION')  
 @endsection

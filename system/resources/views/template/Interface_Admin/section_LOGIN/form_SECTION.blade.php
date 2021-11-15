@@ -1,6 +1,6 @@
-<div class="login-box">
+<div class="login-box bg-danger">
   <div class="login-logo">
-    <a href="../../index2.html"><b>FashionStore</b></a>
+    <a href="../../index2.html"><b>Admin FashionStore</b></a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
@@ -28,7 +28,7 @@
            
         
           <div class="col justify-content-center align-items-center">
-            <button type="submit" class="btn btn-block btn-primary">Sign In</button>
+            <button type="submit" class="btn btn-block btn-danger">Sign In</button>
           </div>
          
         </div>

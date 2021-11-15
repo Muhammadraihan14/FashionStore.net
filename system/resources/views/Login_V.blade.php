@@ -1,6 +1,6 @@
-@extends('template.base_login_register')
+@extends('template.Interface_User.base_login_register')
 @section('form')
-@include('template.section_LOGIN.form_SECTION')  
+@include('template.Interface_User.section_LOGIN.form_SECTION')  
 @endsection
 
     

@@ -1,16 +1,16 @@
 <nav class="navbar navbar-expand-lg navbar-danger bg-danger ms-auto">
   <div class="container">
     
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">  
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <div data-bs-toggle="modal" data-bs-target="#df">
-          <a class="nav-link" href="#"  >DAFTAR</a>
+          <a class="nav-link" href="{{url ('/register')}}"  >DAFTAR</a>
          
         </div>
-          <a class="nav-link" href="#">LOG IN</a>
+          <a class="nav-link" href="{{url ('/login') }}">LOG IN</a>
       </div>
     </div>
   </div>
@@ -49,7 +49,7 @@
 
       </nav>
 <!-- Modal -->
-<div class="modal fade py-6" id="df" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+{{-- <div class="modal fade py-6" id="df" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -70,7 +70,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> --}}
   <!-- end modal daftar -->
     </header>
 <!-- End Header -->

@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+
+
+  // route hal user
 Route::get('/', function () {
     return view('Home_V');
 });
@@ -24,5 +27,16 @@ Route::get('/login', function () {
 });
 Route::get('/register', function () {
     return view('Register_V');
+});
+  // end route hal user
+
+ Route::get('/beranda', function () {
+    return view('Beranda_d_V');
+});
+Route::get('/login admin', function () {
+    return view('Login_aV');
+});
+Route::get('/register admin', function () {
+    return view('Register_aV');
 });
 
