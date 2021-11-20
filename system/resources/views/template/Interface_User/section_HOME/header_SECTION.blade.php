@@ -32,13 +32,10 @@
                 </a>
               </li> 
               <li class="nav-item">
-                <a class="nav-link" href="/produk">Our Products</a>
+                <a class="nav-link" href="/Produk">Our Products</a>
              </li>
               <li class="nav-item">
                 <a class="nav-link" href="/about">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/contact">Contact Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/contact">Contact Us</a>

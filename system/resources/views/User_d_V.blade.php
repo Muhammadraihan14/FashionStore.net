@@ -2,6 +2,6 @@
 
 @section('konten')
 
-        <p> hal beranda</p>
+        <p> hal user</p>
     
 @endsection

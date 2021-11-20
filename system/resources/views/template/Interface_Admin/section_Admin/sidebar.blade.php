@@ -47,7 +47,7 @@ function checkRouteActive($route){
               </li>
 
               <li class="nav-item">
-                <a href="{{ url ('admin/produk')}}" class="nav-link nav-link {{checkRouteActive('admin/produk')}}">
+                <a href="{{ url ('produk')}}" class="nav-link nav-link {{checkRouteActive('produk')}}">
                   <i class="nav-icon fas fa-th"></i>
                   <p>
                     Produk
@@ -64,16 +64,8 @@ function checkRouteActive($route){
                   </p>
                 </a>
               </li>
-              <li class="nav-item">
-                <a href="{{ url ('admin/user')}}" class="nav-link nav-link nav-link {{checkRouteActive('admin/user')}} ">
-                  <i class="nav-icon fas fa-th"></i>
-                  <p>
-                   User
-                  </p>
-                </a>
-              </li>
-          <li class="nav-item menu-open">
-            <a href="{{ url ('beranda')}}" class="nav-link ">
+          <li class="nav-item menu-open" >
+            <a href="#" class="nav-link ">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Master Data
@@ -82,15 +74,15 @@ function checkRouteActive($route){
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{ url ('beranda')}}" class="nav-link ">
+                <a href="{{ url ('user')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Pelanggan</p>
+                  <p>User</p>
                 </a>
               </li>
              <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a  href="{{-- {{ url ('admin')}} --}}#"  class="nav-link" >
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Suplayer</p>
+                  <p>Admin</p>
                 </a>
               </li>
             </ul>
